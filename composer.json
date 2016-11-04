@@ -1,0 +1,22 @@
+{
+    "name": "andares/freedsl",
+    "description": "simple dsl builder for elasticsearch",
+    "keywords": ["elastic", "dsl", "builder"],
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Andares Merigold",
+            "email": "andares@outlook.com"
+        }
+    ],
+    "require": {
+        "php": ">=7.0.0",
+        "ext-yaml": "*"
+    },
+    "require-dev": {
+        "elasticsearch/elasticsearch": "^5.0"
+    },
+    "autoload": {
+        "classmap": ["src/"]
+    }
+}
